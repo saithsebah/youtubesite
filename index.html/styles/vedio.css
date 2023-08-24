@@ -1,0 +1,95 @@
+
+.thumbnail {
+    width: 100%;
+    padding-bottom: 0px;
+    margin-top: 6px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.title {
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 4px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+
+.div1 {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+    margin-right: 20px;
+    position: relative;
+}
+
+
+.vedio-pic-info{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.vedioinfo{
+    display: inline-block;
+    margin-top: 5px;
+    width: 100%;
+   
+}
+.channelprofile{
+    width: 40px;
+ border-radius: 100px;
+}
+.subtitle{
+margin-top: 0;
+margin-bottom: 5px;
+}
+.divmain{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+row-gap: 10 px;
+column-gap: 15px;
+margin-left: 130px;
+margin-top: 50px;
+}
+.body{
+margin-bottom: 100px;
+}
+.text{
+    flex: 1;
+    height: 40px;
+    padding-left: 10px;
+    padding-top: 5px;
+    border-color: rgb(175, 176, 176);
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: inset 1px 2px 5px rgb( 0, 0, 0,0.08);
+    width: 0;
+    
+}
+.text::placeholder{
+    font-size: 20px;
+    color: rgb(102, 99, 99);
+    font-family: Arial;
+   
+   
+}
+.timevedio{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 140px;
+    right: 5px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+}

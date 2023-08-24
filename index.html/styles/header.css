@@ -1,0 +1,117 @@
+.header{
+    height: 60px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom:0;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: -20px;
+    background-color: white;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(224, 218, 218);
+    z-index: 100;
+    
+   
+  }
+.left-section{    
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.middle-section{
+    margin-right: 30px;
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    width: 700px;
+
+
+}
+.right-section{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+.leftimage{
+    height: 30px;
+    width: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.leftimageyoutube{
+   width: 120px;
+   height: 70px;
+   margin-top: 0px;
+   position: absolute;
+   top: -5px;
+   left: 100px;
+   
+}
+.buttonsearch{
+    width: 60px;
+    height: 47px;
+    background-color: rgb(229, 231, 234);
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(175, 176, 176) ;
+    border-radius: 3px;
+    margin-left: -1px;
+    margin-right: 10px;
+}
+.buttonmic{
+    width: 50px;
+    height: 46.5px;
+    background-color: rgb(232, 236, 236);
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(253, 255, 255) ;
+    border-radius: 300px;
+}
+.searchicon,.micicon{
+    height: 20px;
+}
+.rightyoutube{
+    margin-top:5px;
+    width: 30px;
+
+}
+.right-middle-youtube{
+    width: 28px;
+    margin-left: 30px;
+    margin-top: 5px;
+   
+}
+.noti{
+    position: absolute;
+    background-color: red;
+    color: white;
+    top: 21px;
+    right: 135px;
+    border-radius: 5px;
+    width: 10px;
+    height: 13px;
+    font-size: 13px;
+    padding-left: 2px;
+    font-weight: bold;
+    cursor: pointer;
+   
+}
+.right-end-youtube{
+    width: 40px;
+    margin-left: 30px;
+    margin-top: 5px;
+    border-radius: 30px;
+
+}
+.header:hover img{
+    cursor: pointer;
+}
